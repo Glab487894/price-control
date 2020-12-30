@@ -1,0 +1,11 @@
+{
+  "PORT": "3000",
+  "dbUrl": "http://localhost:8080",
+  "dbToken": "priceControlTestToken",
+  "answerUrl": "https://api.telegram.org/bot",
+  "telegramBotToken": "1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM",
+
+
+  "textInitialization": "Initialization message:  ",
+  "textInfo": "Server message:   "
+}

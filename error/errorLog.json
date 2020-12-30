@@ -1,0 +1,233 @@
+[
+    {
+        "time": "12-23-2020, 02:58:10 pm",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"This bot helps you to do price statistics\\nLat's start !\\n\",\"reply_markup\":\"\\\"reply_markup\\\": {\\n        \\\"keyboard\\\": [\\n            [\\n                {\\n                    \\\"text\\\": \\\"Login\\\",\\n                    \\\"callback_data\\\": \\\"Login\\\"\\n                },\\n                {\\n                    \\\"text\\\": \\\"Register\\\",\\n                    \\\"callback_data\\\": \\\"Register\\\"\\n               }\\n            ]\\n        ]\\n    }\"}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 465
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    },
+    {
+        "time": "12-24-2020, 09:25:54 am",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"\",\"reply_markup\":{\"keyboard\":[[{\"text\":\"Register as your telegram account\",\"callback_data\":\"asAccountRegister\"},{\"text\":\"Other user\",\"callback_data\":\"otherUserRegister\"}]]}}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 202
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    },
+    {
+        "time": "12-24-2020, 09:25:59 am",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"\",\"reply_markup\":{\"keyboard\":[[{\"text\":\"Register as your telegram account\",\"callback_data\":\"asAccountRegister\"},{\"text\":\"Other user\",\"callback_data\":\"otherUserRegister\"}]]}}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 202
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    },
+    {
+        "time": "12-24-2020, 09:28:07 am",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"\",\"reply_markup\":{\"keyboard\":[[{\"text\":\"Register as your telegram account\",\"callback_data\":\"asAccountRegister\"},{\"text\":\"Other user\",\"callback_data\":\"otherUserRegister\"}]]}}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 202
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    },
+    {
+        "time": "12-24-2020, 09:28:50 am",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"\",\"reply_markup\":{\"keyboard\":[[{\"text\":\"Register as your telegram account\",\"callback_data\":\"asAccountRegister\"},{\"text\":\"Other user\",\"callback_data\":\"otherUserRegister\"}]]}}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 202
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    },
+    {
+        "time": "12-24-2020, 09:28:54 am",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"\",\"reply_markup\":{\"keyboard\":[[{\"text\":\"Register as your telegram account\",\"callback_data\":\"asAccountRegister\"},{\"text\":\"Other user\",\"callback_data\":\"otherUserRegister\"}]]}}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 202
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    },
+    {
+        "time": "12-24-2020, 09:30:05 am",
+        "log": {
+            "message": "Can not send request to telegram bot api",
+            "error": {
+                "message": "Request failed with status code 400",
+                "name": "Error",
+                "stack": "Error: Request failed with status code 400\n    at createError (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/glab/Рабочий стол/Glab/APP/price-control/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1223:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+                "config": {
+                    "url": "https://api.telegram.org/bot1411927975:AAHd6wPDLwvgF-iSiF9FRUvLhtxw29xNPfM/sendMessage",
+                    "method": "post",
+                    "data": "{\"chat_id\":936314616,\"text\":\"\",\"reply_markup\":{\"keyboard\":[[{\"text\":\"Register as your telegram account\",\"callback_data\":\"asAccountRegister\"},{\"text\":\"Other user\",\"callback_data\":\"otherUserRegister\"}]]}}",
+                    "headers": {
+                        "Accept": "application/json, text/plain, */*",
+                        "Content-Type": "application/json",
+                        "User-Agent": "axios/0.21.0",
+                        "Content-Length": 202
+                    },
+                    "transformRequest": [
+                        null
+                    ],
+                    "transformResponse": [
+                        null
+                    ],
+                    "timeout": 0,
+                    "xsrfCookieName": "XSRF-TOKEN",
+                    "xsrfHeaderName": "X-XSRF-TOKEN",
+                    "maxContentLength": -1,
+                    "maxBodyLength": -1
+                }
+            }
+        }
+    }
+]
